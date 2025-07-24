@@ -22,7 +22,7 @@ Bem-vindo ao repositório oficial da **Duda Tech Corp** — uma empresa digital 
 
 ## 👩🏻‍💻 Feito por
 
-[Eduarda (Duda)](https://github.com/seuuser) — Front-end Developer & Founder da Duda Tech Corp
+[Eduarda (Duda)](https://github.com/dudinhadevweb) — Front-end Developer & Founder da Duda Tech Corp
 
 ---
 
