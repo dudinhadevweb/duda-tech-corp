@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Pedido | Duda Tech Corp</title>
+</head>
+<body>
+  <header>
+    <h1>✨ Quase lá! ✨</h1>
+    <p>Preencha os dados abaixo para a gente começar seu projeto com todo carinho!</p>
+  </header>
+
+  <form action="mailto:dudatechcorp@email.com" method="POST" enctype="text/plain">
+    <fieldset>
+      <legend>💌 Informações do Cliente</legend>
+
+      <label for="nome">Seu nome completo:</label><br/>
+      <input type="text" id="nome" name="Nome" required><br/><br/>
+
+      <label for="email">Seu e-mail:</label><br/>
+      <input type="email" id="email" name="Email" required><br/><br/>
+
+      <label for="produto">Produto escolhido:</label><br/>
+      <input type="text" id="produto" name="Produto" placeholder="Ex: Blog de Namoro – Presente Digital" required><br/><br/>
+
+      <label for="prazo">Prazo desejado (data):</label><br/>
+      <input type="date" id="prazo" name="Prazo"><br/><br/>
+    </fieldset>
+
+    <fieldset>
+      <legend>🎨 Personalização</legend>
+
+      <label for="detalhes">Fotos e textos (links ou descrições):</label><br/>
+      <textarea id="detalhes" name="Fotos e Textos" rows="4" placeholder="Ex: link das fotos no Drive, frase principal..." required></textarea><br/><br/>
+
+      <label for="estilo">Cores, estilo, músicas, links, etc.:</label><br/>
+      <textarea id="estilo" name="Estilo e Preferências" rows="3" placeholder="Ex: azul bebê, estilo fofo, música tal..."></textarea><br/><br/>
+
+      <label for="observacoes">Observações finais:</label><br/>
+      <textarea id="observacoes" name="Observações" rows="2"></textarea><br/>
+    </fieldset>
+
+    <!-- Botão novo -->
+<a href="pagamento.html">Próximo</a>
+  </form>
+
+  <footer>
+    <p>❤️ Duda Tech Corp – Criatividade com propósito.</p>
+  </footer>
+</body>
+</html>
